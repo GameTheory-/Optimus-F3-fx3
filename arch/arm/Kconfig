@@ -2339,6 +2339,10 @@ source "drivers/cpuidle/Kconfig"
 
 endmenu
 
+menu "Freedom Overclock"
+source "gt/Kconfig"
+endmenu
+
 config CPU_FREQ_MSM
         bool
         depends on CPU_FREQ && ARCH_MSM

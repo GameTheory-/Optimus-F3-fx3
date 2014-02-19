@@ -3603,6 +3603,7 @@
 0x30deb73b	scsi_get_device_flags_keyed	vmlinux	EXPORT_SYMBOL
 0xaa16c5ad	device_show_int	vmlinux	EXPORT_SYMBOL_GPL
 0x23a7f482	kgsl_pwrctrl_irq	vmlinux	EXPORT_SYMBOL
+0xd07e41dc	erandom_get_random_bytes	vmlinux	EXPORT_SYMBOL
 0x17e66818	uart_handle_cts_change	vmlinux	EXPORT_SYMBOL_GPL
 0x9b154e29	uart_handle_dcd_change	vmlinux	EXPORT_SYMBOL_GPL
 0x8e38e361	blk_fetch_request	vmlinux	EXPORT_SYMBOL

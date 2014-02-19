@@ -402,6 +402,7 @@ deps_config := \
 	drivers/s390/char/Kconfig \
 	drivers/char/tpm/Kconfig \
 	drivers/char/pcmcia/Kconfig \
+	drivers/char/frandom/Kconfig \
 	drivers/char/hw_random/Kconfig \
 	drivers/char/ipmi/Kconfig \
 	drivers/tty/hvc/Kconfig \
@@ -699,6 +700,7 @@ deps_config := \
 	net/Kconfig \
 	kernel/power/Kconfig \
 	fs/Kconfig.binfmt \
+	gt/Kconfig \
 	drivers/cpuidle/Kconfig \
 	drivers/cpufreq/Kconfig.powerpc \
 	drivers/cpufreq/Kconfig.arm \
@@ -798,7 +800,7 @@ deps_config := \
 include/config/auto.conf: \
 	$(deps_config)
 
-ifneq "$(KERNELVERSION)" "3.4.0"
+ifneq "$(KERNELVERSION)" "3.4.0-freedom"
 include/config/auto.conf: FORCE
 endif
 ifneq "$(ARCH)" "arm"
